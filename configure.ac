@@ -17,5 +17,5 @@ AC_SUBST(WEBKITGTK_SHELL_DEPS_LIBS)
 AM_INIT_AUTOMAKE([foreign subdir-objects])
 AM_PROG_CC_C_O
 
-AC_CONFIG_FILES([Makefile])
+AC_CONFIG_FILES([Makefile data/weston.ini])
 AC_OUTPUT
