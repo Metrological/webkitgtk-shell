@@ -25,6 +25,7 @@ int main(int argc, char* argv[])
 
     WebKitSettings* settings = webkit_web_view_get_settings(webView);
     webkit_settings_set_enable_write_console_messages_to_stdout(settings, TRUE);
+    webkit_settings_set_enable_accelerated_2d_canvas(settings, TRUE);
 
     webkit_web_view_load_uri(webView, uri);
 
